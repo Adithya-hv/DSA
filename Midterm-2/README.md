@@ -58,6 +58,8 @@ Total time Complexity = O(n^2)
 
 ### Effective Approach
 
+This approach uses a greedy Algorithim with binary search. Sub holds the longest increasing subsequence whichs starts of as empty but is updated with each element with every iteration. We use binary search to get the postion that num needs to go into sub. if the pos is == the length of sub then its the greatest element and its appended. else it finds the pos of an element num can replace. This gives us an array with all the most increasing nums in A.
+
 #### Time Complexity Analysis
 
 Each iteration of binary search takes O(Log(n)) and its performed once per element in A (O(n)).
