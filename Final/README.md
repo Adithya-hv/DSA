@@ -6,7 +6,7 @@ The program is designed using a brute-force approach. It takes an inorder traver
 
 ### Time Complexity
 
-The Time Complexity of this program is, $O(C_{n})$, this is mainly due to the fact that is creates every possible binary tree for a given inorder traversal. This also means that for a large n vaule this program will fail.
+The Time Complexity of this program is, $O(C_{n})$, this is mainly due to the fact that it creates every possible binary tree for a given inorder traversal. This also means that for a large n value this program will fail.
 
 Time Complexity = $O(nLog(n))(\text{Sorting the Arr}) + O(n)(\text{Checking MinHeap}) + O(C_{n})(\text{Generating Trees})$
 
@@ -23,7 +23,7 @@ The program performs the deletion operation on a binary min-heap. It removes an 
 
 ### Time Complexity
 
-The Time COmplexity of this program is O(Log(n)) de to the heapify down function as it traveses the tree.
+The Time Complexity of this program is O(Log(n)) due to the heapify down function as it traverses the tree.
 The height of a binary heap with n elements is O(Logn).
 
 ### Sample Output
